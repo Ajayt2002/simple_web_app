@@ -20,6 +20,7 @@ jobs:
                 context: .
                 file: ./Docker/Dockerfile.backend
                 push: true
-                tags: ajayt8374/user-app-backend:${{ github.sha }}
-            
+                tags: |
+                  ajayt8374/user-app-backend:latest
+                  ajayt8374/user-app-backend:${{ github.sha }}
             
