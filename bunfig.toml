@@ -1,0 +1,6 @@
+[install]
+# Enable workspace package resolution
+link_native_bins = true
+
+[install.scopes]
+# Configure workspace package resolution 
