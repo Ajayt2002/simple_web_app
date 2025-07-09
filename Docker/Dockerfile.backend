@@ -17,4 +17,4 @@ RUN bun run db:generate
 
 EXPOSE 8080
 
-CMD ["bun","run","start:web"]
+CMD ["bun","run","start:backend"]
